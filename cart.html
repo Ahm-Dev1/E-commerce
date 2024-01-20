@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+
+    <section class="nav-bar">
+
+        <div class="nav-left">
+            <input type="text" placeholder="Search">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+
+        <div class="nav-middle">
+            Ahmad Ashraf
+        </div>
+
+        <div class="nav-right">
+            <div class="right-right">
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+            </div>
+
+            <div class="right-middle">
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+
+            <div class="right-left">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div class="num">
+                    2
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="menu">
+        <div class="m-i">
+           <a href="index.html"> <p>HOME</p></a>
+            <a class="anc" href="http://127.0.0.1:5500/index.html"><i class="fa-sharp fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="m-i">
+            <a href="About.html"><p>ABOUT</p></a>
+            <a class="anc" href="http://127.0.0.1:5500/About.html"><i class="fa-sharp fa-solid fa-angle-down"></i></a>
+        </div>
+        <div>
+            <a href="shop.html"><p>SHOP</p></a>
+        </div>
+        <div>
+            <a href="#"><p>CATALOGUE</p></a>
+        </div>
+        <div>
+            <a href="#"><p>NEW ARRIVALS</p></a>
+        </div>
+        <div>
+            <a href="#"><p>CONTACT</p></a>
+        </div>
+
+    </section>
+    <div class="classification">
+        <p class="clasi1">Home </p>
+        <p class="dsh">/</p>
+        <p class="clasi2">Cart</p>
+    </div>
+
+    <section class="cart-table">
+
+        <table border="1" width="80%" class="tabl">
+            <tr>
+                <th>Image</th>
+                <th class="product-h">Product</th>
+                <th class="price-h">Price</th>
+                <th class="quan-h">Quantity</th>
+                <th class="total-h">Total</th>
+                <th class="remove-h">Remove</th>
+            </tr>
+            <tr>
+                <td class="t-img">
+                   <div class="pro-img">
+                    <img width="100%" height="100%" src="Images\cloth_1.jpg" alt="">
+                   </div>
+                </td>
+                <td class="product">
+                    <h6>Top Up T-Shirt</h6>
+                </td>
+
+                <td class="price"> 
+                    <p>$49.00</p>
+                </td>
+
+                <td class="quant">
+                    <div>
+                        <div class="minus">
+                            <p >-</p>
+                        </div>
+                        <div class="plus">
+                            <p>+</p>
+                        </div>
+        
+                        <div class="number">
+                            <p>01</p>
+                        </div>
+                    </div>
+                    </div>
+                </td>
+
+                <td class="price">
+                    <p>$49.00</p>
+                </td>
+
+                <td class="remove">
+                    <button>X</button>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="t-img">
+                   <div class="pro-img">
+                    <img width="100%" height="100%" src="Images\cloth_1.jpg" alt="">
+                   </div>
+                </td>
+                <td class="product">
+                    <h6>Top Up T-Shirt</h6>
+                </td>
+
+                <td class="price"> 
+                    <p>$49.00</p>
+                </td>
+
+                <td class="quant">
+                    <div>
+                        <div class="minus1">
+                            <p >-</p>
+                        </div>
+                        <div class="plus1">
+                            <p>+</p>
+                        </div>
+        
+                        <div class="number">
+                            <p>01</p>
+                        </div>
+                    </div>
+                    </div>
+                </td>
+
+                <td class="price">
+                    <p>$49.00</p>
+                </td>
+
+                <td class="remove">
+                    <button>X</button>
+                </td>
+            </tr>
+        </table>
+
+
+
+    </section>
+
+    <section class="foot">
+
+        <div class="foot-right">
+            <div class="btnss">
+                <button class="upd-btn">UPDATE CART</button>
+                <button class="con-btn">CONTINUE SHOPPING </button>
+            </div>
+
+            <div class="copun">
+                <h6>Coupon</h6>
+                <p>Enter your coupon if you have one.</p>
+            </div>
+            <div class="entr-cop">
+                <input type="text" placeholder="Coupon Code">
+
+                <button>APPLY COUPON</button>
+
+
+            </div>
+        </div>
+
+
+        <div class="foot-left">
+            <div>
+                <h6>CART TOTALS</h6>
+            </div>
+
+<hr style="color:  #73737365;">
+            <div>
+                <div class="t1">
+                    <div>
+                        <h6>Subtotal</h6>
+                    </div>
+
+                    <div>
+                        <h6>Total</h6>
+                    </div>
+                </div>
+
+                <div class="t2">
+                    <div>
+                        <p>$230.00</p>
+                    </div>
+                    <div>
+                        <p>$230.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chk-btn">
+                <a href="http://127.0.0.1:5500/checkOut.html"><button>PROCEED TO CHECKOUT</button></a>
+            </div>
+        </div>
+    </section>
+
+   <hr> 
+    <footer class="footer1">
+        <div class="navigations">
+            <label for="ul">Navigations</label>
+            <ul style="list-style: none;">
+                <li><a href="#"> Sell online</a> </li>
+                <li><a href="#"> Features</a></li>
+                <li> <a href="#"> Shopping Cart</a></li>
+                <li><a href="#">Store builder</a></li>
+            </ul>
+        </div>
+
+        <div class="sec-l">
+            <ul style="list-style: none;">
+                <li><a href="#">Mobile commerce</a></li>
+
+                <li><a href="#">Dropshipping</a></li>
+
+                <li><a href="#">Website development</a></li>
+            </ul>
+        </div>
+
+        <div class="thrd-l">
+
+            <ul style="list-style: none;">
+                <li><a href="#">point of sale</a> </li>
+                <li> <a href="#">Hardware</a></li>
+                <li><a href="#">Software</a> </li>
+            </ul>
+
+        </div>
+        
+        <div class="promo">
+            <label for="">Promo</label>
+            <div class="promo-img">
+                <a href="#"><img width="100%" height="100%"  src="Images\hero_1.jpg" alt=""></a>
+            </div>
+            <div class="promo-txt">
+                <h6><a class="per" href="#"> Finding Your Perfect Shoes </a></h6>
+                <p>Promo from nuary 15 - 25,2019 </p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <label for="">Contact Info</label>
+            <ul style="list-style: none;">
+                <li class="list">   <i class="fa-solid fa-location-dot"></i> <p> 203 fake st. Mountain View. San <br> Francisco, California, USA </p>  </li>
+                <li class="list"><i class="fa-solid fa-phone"></i> <p class="phone">+966 590 087 3178</p> </li>
+                <li class="list"><i class="fa-solid fa-envelope"></i> <p class="phone">a1h2mad12@gmail.com</p></li>
+            </ul>
+
+            <div class="subscribe">
+                <div>
+                    <label for="email">Subscribe</label>
+                </div>
+                <div class="email">
+                <input name="email" type="text" placeholder="Email">
+                <button>SEND</button>
+            </div>
+            </div>
+
+        </div> 
+
+
+    </footer>
+
+    <section class="sig"> 
+        <p>Copyright <i  class="fa-sharp fa-regular fa-copyright"></i>2021 All rights reserved | This template is made with <i class="fa-sharp fa-solid fa-heart"></i>by Ahmad Ashraf</p>
+    </section>
+
+    
+</body>
+</html>
